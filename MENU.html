@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunny Bean Café Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fffaf3;
+      color: #333;
+    }
+
+    header {
+      background-color: #f4c95d;
+      padding: 1.5rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #4b3b0a;
+    }
+
+    .menu-section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .menu-section h2 {
+      border-bottom: 2px solid #f4c95d;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      color: #4b3b0a;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+
+    .menu-item p {
+      margin: 0;
+    }
+
+    .item-name {
+      font-weight: bold;
+    }
+
+    .price {
+      color: #8d6e25;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    @media (max-width: 600px) {
+      .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sunny Bean Café</h1>
+  </header>
+
+  <div class="menu-section">
+    <h2>Coffee</h2>
+    <div class="menu-item">
+      <p class="item-name">Espresso</p>
+      <p class="price">$2.50</p>
+    </div>
+    <div class="menu-item">
+      <p class="item-name">Cappuccino</p>
+      <p class="price">$3.50</p>
+    </div>
+    <div class="menu-item">
+      <p class="item-name">Latte</p>
+      <p class="price">$4.00</p>
+    </div>
+  </div>
+
+  <div class="menu-section">
+    <h2>Pastries</h2>
+    <div class="menu-item">
+      <p class="item-name">Croissant</p>
+      <p class="price">$2.75</p>
+    </div>
+    <div class="menu-item">
+      <p class="item-name">Blueberry Muffin</p>
+      <p class="price">$3.00</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Sunny Bean Café. All rights reserved.
+  </footer>
+
+</body>
+</html>
